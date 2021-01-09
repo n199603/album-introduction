@@ -26,3 +26,25 @@ header h1 {
   text-align: center;
 }
 
+.description {
+  clear: left;
+}
+
+.description img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.information h1 {
+  font-size: 18px;
+  margin: 0 10px 10px 0;
+  float: left;
+}
+
+.information .type {
+  display: inline;
+  background-color: #E35A4D;
+  padding: 3px 5px;
+  font-size: 80%;
+  color: #fff;
+}
