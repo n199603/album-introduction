@@ -90,3 +90,8 @@ a {
   color: #666;
   /* text-decoration: none; */
 }
+
+footer {
+  text-align: center;
+  font-size: 80%;
+}
