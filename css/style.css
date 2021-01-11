@@ -97,3 +97,30 @@ footer {
   text-align: center;
   font-size: 80%;
 }
+
+/* レスポンシブWebデザイン */
+@media only screen and (max-width: 600px) {
+  .description img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  header {
+    padding: 5px;
+  }
+
+  header h1 {
+    font-size: 12px;
+  }
+
+  .information h1 {
+    font-size: 14px;
+  }
+
+  .songs li {
+    float: none;
+    /* inheridで親要素に合わせる */
+    width: inherit;
+  }
+}
