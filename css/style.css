@@ -35,6 +35,20 @@ header h1 {
 .description img {
   float: left;
   margin: 0 10px 10px 0;
+  /* 対象 */
+  transition-property: opacity;
+  /* 時間 */
+  transition-duration: 1s;
+  /* 緩やかに変化させる */
+  transition-timing-function: ease;
+  /* 待ち時間 */
+  transition-delay: 0s;
+}
+
+/* :hover(擬似クラス) */
+.description img:hover {
+  /* 不透明度を設定 */
+  opacity: .5;
 }
 
 .information h1 {
